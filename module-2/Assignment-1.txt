@@ -1,0 +1,38 @@
+Introduction to Rust Syntax
+
+Objective: To practice writing basic Rust code and understanding its syntax.
+
+Task:
+
+In this assignment, students will get hands-on experience with Rust syntax by creating a simple Rust program. The program should accomplish several basic tasks to ensure they are familiar with the language's core concepts.
+
+Instructions:
+
+Hello, Rust!:
+
+Ask students to create a Rust program that prints "Hello, Rust!" to the console. This is a simple introduction to Rust programming.
+Variable Declarations:
+
+Instruct students to declare and initialize variables of different data types, such as:
+Integer variables.
+Floating-point variables.
+String variables.
+Boolean variables.
+Students should assign meaningful values to these variables.
+Formatted Output:
+
+Utilize Rust's println! macro for formatted output. Students should print the values of the variables to the console using println! with appropriate formatting.
+Comments and Code Organization:
+
+Emphasize the importance of code readability and organization.
+Encourage students to include both single-line and multi-line comments to explain their code.
+Require proper code indentation and formatting to enhance code readability.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful implementation of a Rust program that prints "Hello, Rust!".
+Correct declaration and initialization of variables of different data types.
+Proper use of Rust's println! macro for formatted output.
+Inclusion of comments to explain the code.
+Code organization, indentation, and overall code readability.

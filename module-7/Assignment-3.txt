@@ -1,0 +1,49 @@
+Unit Testing and Documentation
+
+Objective: To reinforce the importance of testing and documentation in software development.
+
+Task:
+
+In this assignment, students will focus on testing and documentation to ensure the quality and maintainability of their Rust projects. By writing comprehensive unit tests and generating project documentation, students will learn essential software development practices.
+
+Instructions:
+
+Project Selection:
+
+Instruct students to choose a Rust project for this assignment. It can be one of their previous assignments or a new project of their choice.
+Ensure that the project has a reasonable scope for writing meaningful unit tests and generating documentation.
+Unit Testing:
+
+Teach students how to write unit tests in Rust using the built-in testing framework (Rust's #[cfg(test)] attribute).
+Explain the concept of test functions and assertions.
+Instruct students to identify critical parts of their project's codebase that require testing. This may include functions, methods, or modules with complex logic.
+Encourage students to write test functions for these critical parts to verify their correctness.
+Emphasize the importance of testing various scenarios, including edge cases and error conditions.
+Guide students in organizing their test functions into a separate module or file.
+Documentation:
+
+Explain the significance of project documentation in enhancing code readability and usability.
+Introduce students to Rust's documentation comments (Rustdoc) and conventions.
+Instruct students to add Rustdoc comments to their project's code. These comments should explain the purpose, usage, and expected behavior of functions, methods, and modules.
+Encourage students to provide examples and use cases in their Rustdoc comments to make the documentation more practical.
+Teach students how to use Rustdoc to generate documentation for their projects. Demonstrate how to use the "cargo doc" command to produce HTML documentation.
+Code Coverage:
+
+Discuss the concept of code coverage and its significance in testing.
+Introduce students to tools that can measure code coverage in Rust (e.g., tarpaulin).
+Instruct students to use a code coverage tool to assess the coverage of their unit tests.
+Encourage students to aim for high code coverage, especially in critical parts of their projects.
+Submission:
+
+Set a deadline for students to submit their project, including the unit tests and generated documentation.
+Ask students to provide instructions on how to build and run the unit tests and access the documentation.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Thoroughness and correctness of unit tests, including coverage of critical code paths.
+Quality of documentation comments (Rustdoc), including clarity, completeness, and usage examples.
+Successful generation of project documentation using "cargo doc."
+Code coverage percentage, with an emphasis on critical parts of the codebase.
+Adherence to best practices for writing unit tests and documenting Rust code.
+Optional: Creativity in writing tests and documentation that showcase the project's features and functionality.

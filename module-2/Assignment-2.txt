@@ -1,0 +1,38 @@
+Ownership and Borrowing
+
+Objective: To reinforce the concepts of ownership and borrowing in Rust.
+
+Task:
+
+In this assignment, students will delve deeper into Rust's unique ownership system and understand the importance of borrowing and references. They will create Rust programs that showcase these concepts and highlight the benefits of Rust's ownership model.
+
+Instructions:
+
+Ownership Transfer:
+
+Ask students to write Rust code that demonstrates ownership transfer between variables.
+They should create variables, assign values to them, and then transfer ownership of those values between variables.
+Students should print the ownership status at each step to illustrate how ownership changes.
+Borrowing and Functions:
+
+Instruct students to create functions that accept borrowed references (using &) as parameters.
+These functions should perform actions on the borrowed data without taking ownership.
+Encourage students to demonstrate borrowing for both mutable and immutable references.
+Data Races and Memory Issues:
+
+Challenge students to modify their code to introduce potential data races or memory issues.
+Explain the error messages and issues that Rust's ownership model helps prevent.
+Ensure students understand how Rust ensures memory safety and prevents race conditions.
+"One Writer or Many Readers" Philosophy:
+
+Discuss Rust's philosophy of "one writer or many readers" when it comes to ownership.
+Ask students to provide examples or scenarios where this philosophy is beneficial in concurrent programming.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful implementation of Rust code demonstrating ownership transfer.
+Correct creation of functions that accept borrowed references.
+Appropriate use of mutable and immutable references in functions.
+Identification and correction of potential data races or memory issues.
+Explanation of Rust's memory safety and concurrency philosophy.

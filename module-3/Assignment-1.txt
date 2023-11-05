@@ -1,0 +1,43 @@
+Introduction to Concurrency in Rust
+
+Objective: To introduce students to concurrent programming concepts in Rust.
+
+Task:
+
+In this assignment, students will explore concurrent programming in Rust by creating a simple Rust program that utilizes multiple threads to execute tasks concurrently. The goal is to familiarize students with Rust's thread creation and management while discussing the advantages and challenges of concurrent programming.
+
+Instructions:
+
+Thread Creation:
+
+Instruct students to write a Rust program that creates multiple threads. The number of threads can be specified by the user or a fixed number defined in the program.
+Students should use Rust's standard library (std::thread) to create threads.
+Thread Tasks:
+
+Assign each thread a simple task to perform concurrently. For example, each thread can print a unique message to the console.
+The goal is to demonstrate that multiple threads are executing tasks simultaneously.
+Demonstration:
+
+Students should run the program and observe the concurrent execution of tasks.
+Discuss with students the order of task execution, which may vary due to thread scheduling.
+Benefits of Concurrency:
+
+Engage students in a discussion about the benefits of concurrent programming in Rust, such as improved program responsiveness and resource utilization.
+Highlight scenarios where concurrency is particularly useful, e.g., parallelism in multi-core processors.
+Challenges of Concurrency:
+
+Discuss potential challenges and issues that may arise in concurrent programs, such as data races and synchronization problems.
+Emphasize Rust's ownership and borrowing system as a way to prevent common concurrency-related issues.
+Code Comments:
+
+Encourage students to provide comments in their code to explain the purpose of each thread and task.
+Discuss best practices for writing concurrent code that is both efficient and safe.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Creation of multiple threads in the Rust program.
+Successful execution of concurrent tasks.
+Understanding and discussion of the benefits of concurrent programming in Rust.
+Awareness of potential challenges and issues in concurrent programs.
+Clarity of code comments and explanations.

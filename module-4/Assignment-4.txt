@@ -1,0 +1,42 @@
+Error Handling with Result and Option
+
+Objective: To teach students effective error handling using Rust's Result and Option types.
+
+Task:
+
+In this assignment, students will explore Rust's robust error handling mechanisms using Result and Option types. They will gain a deeper understanding of how to handle errors gracefully and recover from them.
+
+Instructions:
+
+Error-Prone Function:
+
+Assign students a task that involves a function or method with error-prone behavior.
+For example, you can instruct them to create a function that reads data from a file, performs calculations, and returns a Result or Option.
+Error Propagation:
+
+Ask students to implement error propagation within their function. Errors can include file I/O errors, data validation failures, or other relevant scenarios.
+Students should use Result and Option types to represent success and error cases.
+Error Handling Strategies:
+
+Students should demonstrate different error handling strategies, such as pattern matching on Result and Option, using methods like unwrap, expect, and map_or, and implementing custom error messages.
+Encourage them to consider when to use unwrap (for scenarios where they expect the operation to always succeed) and when to handle errors gracefully.
+Recovery:
+
+Instruct students to implement recovery mechanisms for their errors. For example, if a file read fails, they could provide a default value or gracefully exit the program with an informative error message.
+Reflect on Rust's Error Handling:
+
+Students should discuss Rust's approach to error handling compared to exceptions in other languages.
+Encourage them to highlight the safety and predictability of Rust's error handling mechanisms.
+Documentation:
+
+Ensure that students include clear documentation explaining their error handling strategies and how Result and Option types are used.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Effective use of Result and Option types for error handling.
+Appropriate error propagation within their code.
+Demonstrated error handling strategies, including pattern matching and methods like unwrap and expect.
+Implementation of recovery mechanisms when errors occur.
+Thoughtful reflection on Rust's error handling compared to other languages.
+Clear and concise documentation of error handling strategies.

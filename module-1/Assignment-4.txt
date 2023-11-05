@@ -1,0 +1,33 @@
+Error Handling and Result Types
+
+Objective: To introduce error handling and the Result type in Rust.
+
+Task:
+
+In this assignment, students will gain hands-on experience with error handling in Rust by using the Result type to manage and handle errors gracefully.
+
+Instructions:
+
+Error-Generating Functions:
+
+Instruct students to create a Rust program that deliberately generates errors within specific functions.
+Errors can include scenarios such as division by zero, attempting to open a non-existent file, or any other situation that results in a failure.
+Encourage students to design these functions so that they return a Result type that represents either success (Ok) or failure (Err).
+Result Type and Match Expression:
+
+Have students use the Result type to handle errors gracefully within their program.
+For functions that can fail, they should return a Result type with informative error messages included in the Err variant.
+In the main program or other functions, instruct students to use the match expression to pattern match and process both the Ok and Err variants appropriately.
+Emphasize the importance of providing meaningful error messages to aid in debugging and troubleshooting.
+Benefits of Rust's Error Handling:
+
+Initiate a discussion or require students to write a reflection on the benefits of Rust's approach to error handling.
+Encourage them to highlight how Rust's strict error handling mechanisms contribute to more robust and reliable code.
+Discuss how Result types help prevent unexpected program crashes and make error handling explicit and predictable.
+Evaluation Criteria:
+
+Correct implementation of functions generating intentional errors.
+Effective use of the Result type to manage errors.
+Proper use of the match expression to handle Result variants.
+Clarity and informativeness of error messages.
+Thoughtful reflection on the advantages of Rust's error handling approach.

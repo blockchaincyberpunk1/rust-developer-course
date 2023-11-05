@@ -1,0 +1,64 @@
+Open-Source Contribution (Beginner)
+
+Objective: To introduce students to open-source contribution in the Rust ecosystem.
+
+Task:
+
+In this assignment, students will have the opportunity to make their first contribution to an open-source Rust project. They will select a beginner-friendly project, resolve an issue labeled as "beginner-friendly" or "good first issue," and submit a pull request (PR) while documenting their experience.
+
+Instructions:
+
+Choose a Rust Open-Source Project:
+
+Instruct students to explore open-source Rust projects on platforms like GitHub (github.com/rust-lang) or other repositories known for hosting Rust projects.
+Encourage students to select a project that interests them and is labeled as "beginner-friendly" or "good first issue." Emphasize the importance of choosing a project aligned with their interests.
+Fork and Clone the Repository:
+
+Once students have chosen a project, guide them to:
+Fork the repository to create their copy.
+Clone the forked repository to their local development environment.
+Resolve a Beginner-Friendly Issue:
+
+Instruct students to:
+Browse the project's issues and select a beginner-friendly issue that they would like to work on.
+Read the issue description and any associated discussions to understand the problem or task.
+Ask questions or seek clarification from the project's maintainers if needed.
+Implement the Solution:
+
+Encourage students to:
+Write code to address the issue, following the project's coding style and guidelines.
+Include appropriate tests for the changes they are making.
+Ensure their code is well-documented and includes comments where necessary.
+Commit their changes with clear and descriptive commit messages.
+Submit a Pull Request (PR):
+
+Guide students through the process of creating a PR:
+Push their changes to their forked repository.
+Create a PR from their forked repository to the original project's repository.
+Write a descriptive PR title and description, referencing the issue they are addressing.
+Follow the project's PR template and guidelines.
+Document the Contribution Process:
+
+Ask students to maintain a journal or document of their contribution process. They should record:
+Details of the issue they worked on.
+Code changes made and tests added.
+Interactions with the project's maintainers and community.
+Any challenges faced and how they overcame them.
+Lessons learned during the contribution process.
+Reflect on the Experience:
+
+At the end of the assignment, instruct students to write a reflective report:
+Summarize their overall experience contributing to an open-source Rust project.
+Discuss the impact of their contribution on the project.
+Share insights gained into Rust development and collaboration in open-source communities.
+Reflect on the importance of open-source contributions in the Rust ecosystem.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Selection of a suitable open-source Rust project.
+Successful resolution of a beginner-friendly issue.
+Quality and completeness of code changes and tests.
+Proper documentation and adherence to the project's guidelines.
+The completeness and organization of their documented contribution process.
+The depth and thoughtfulness of their reflective report.

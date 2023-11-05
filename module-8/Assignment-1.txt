@@ -1,0 +1,50 @@
+Forum Participation
+
+Objective: To encourage students to actively engage in online Rust communities.
+
+Task:
+
+In this assignment, students will have the opportunity to become active members of the Rust programming language community by participating in discussions, asking questions, providing answers, and sharing resources on popular Rust forums and community platforms.
+
+Instructions:
+
+Choose a Rust Community Platform:
+
+Instruct students to choose one of the following popular Rust community platforms:
+Rust Users Forum (https://users.rust-lang.org/)
+Reddit's r/rust (https://www.reddit.com/r/rust/)
+Other Rust-focused forums or community spaces (ensure they are active and relevant).
+Register and Introduce Themselves:
+
+Guide students to register an account if they do not have one already.
+Encourage students to create a brief introductory post in the chosen community platform's designated section for introductions.
+Participate Actively:
+
+Instruct students to participate actively by doing the following:
+Engage in discussions by replying to existing threads.
+Ask questions related to Rust programming, development challenges, or best practices.
+Provide thoughtful and helpful answers to questions posed by others.
+Share Rust-related articles, tutorials, or resources they find interesting or valuable.
+Document Activities:
+
+Ask students to maintain a journal or document of their forum activities. They should record the following:
+A summary of discussions they participated in or initiated.
+Questions they asked and any solutions or insights gained.
+Contributions they made, such as answering questions or sharing resources.
+Any feedback or interactions with other community members.
+Reflect on the Experience:
+
+At the end of the assignment period, instruct students to write a reflective report:
+Summarize their overall experience in the Rust community.
+Highlight any valuable insights gained from discussions or interactions.
+Share their observations about the Rust community's culture and values.
+Reflect on the importance of community engagement in open-source and programming ecosystems.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Active participation in the chosen Rust community platform.
+Quality and relevance of contributions to discussions and questions.
+Sharing of valuable Rust-related articles or resources.
+The completeness and organization of their documented activities.
+The depth and thoughtfulness of their reflective report.

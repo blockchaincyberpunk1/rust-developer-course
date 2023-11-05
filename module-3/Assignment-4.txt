@@ -1,0 +1,45 @@
+Concurrent Data Processing
+
+Objective: To apply concurrency for parallel data processing in Rust.
+
+Task:
+
+In this assignment, students will design and implement a Rust program that demonstrates the advantages of concurrent data processing. They will work with a large dataset and use multiple threads to perform computations or transformations on different portions of the data. The goal is to measure and compare the execution time with and without concurrency, allowing students to understand the performance improvements and trade-offs associated with concurrent programming.
+
+Instructions:
+
+Dataset Selection:
+
+Instruct students to choose a dataset that is large enough to demonstrate the benefits of concurrent processing.
+The dataset can be in any format (e.g., CSV, JSON, or a custom file format), and it should contain meaningful data that can be processed.
+Program Design:
+
+Students should design a Rust program that reads the dataset and performs some computationally intensive operations on it.
+These operations can include calculations, data transformations, filtering, or any relevant tasks.
+The program should be designed to process the data concurrently using multiple threads.
+Concurrency Implementation:
+
+Have students implement concurrency by dividing the dataset into smaller chunks and assigning each chunk to a separate thread for processing.
+Use Rust's standard library features for concurrent programming (e.g., std::thread, std::sync) to manage the threads and data sharing.
+Execution Time Measurement:
+
+Instruct students to measure the execution time of their program with concurrency enabled.
+Also, have them modify the program to execute the same tasks sequentially (without concurrency) and measure the execution time again.
+Comparison and Analysis:
+
+Ask students to compare the execution times of the concurrent and sequential versions of their program.
+Discuss the performance improvements achieved with concurrency.
+Encourage students to analyze any trade-offs, such as increased memory usage or potential synchronization overhead.
+Documentation:
+
+Require students to provide documentation that explains their program's design, the dataset used, and the results of their performance measurements.
+Discuss the importance of clear documentation in real-world projects.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful design and implementation of a Rust program for concurrent data processing.
+Proper division of the dataset into smaller chunks for concurrent processing.
+Accurate measurement and comparison of execution times between concurrent and sequential versions.
+Insightful analysis of the performance improvements achieved with concurrency.
+Quality and clarity of documentation provided.

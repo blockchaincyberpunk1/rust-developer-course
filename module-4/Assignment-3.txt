@@ -1,0 +1,35 @@
+Advanced Pattern Matching
+
+Objective: To explore advanced pattern matching techniques in Rust.
+
+Task:
+
+In this assignment, students will dive into advanced pattern matching techniques in Rust, which enable developers to write more expressive and concise code.
+
+Instructions:
+
+Complex Pattern Matching:
+
+Instruct students to write Rust code that utilizes match expressions with complex patterns.
+Examples of complex patterns can include nested patterns, ranges, and guards.
+Encourage students to explore various scenarios where complex patterns are beneficial.
+Parsing Structured Data:
+
+Ask students to implement pattern matching to parse structured data formats like JSON or XML.
+They should create a Rust program that can extract specific information from these formats using pattern matching.
+Provide sample data for parsing, or students can use external crates for working with structured data formats.
+Code Expressiveness:
+
+Students should reflect on their experience using advanced pattern matching and discuss how it has improved the readability and expressiveness of their code.
+Encourage them to provide examples of before-and-after code to illustrate the impact of pattern matching.
+Documentation:
+
+Ensure that students include clear documentation explaining the purpose of their code and how advanced pattern matching is employed.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Effective use of advanced pattern matching techniques, including complex patterns like nested patterns, ranges, and guards.
+Successful implementation of pattern matching to parse structured data formats.
+Insightful reflection on the improved code expressiveness and readability achieved through advanced pattern matching.
+Clear and concise documentation that aids in understanding the code.

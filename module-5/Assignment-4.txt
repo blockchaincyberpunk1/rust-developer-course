@@ -1,0 +1,39 @@
+Building a System-Level Application
+
+Objective: To apply knowledge of unsafe Rust and FFI in a real-world context.
+
+Task:
+
+In this assignment, students will have the opportunity to put their knowledge of unsafe Rust and Foreign Function Interface (FFI) into practice by developing a system-level application. They will select a systems-level project of their choice, which may include building a file system utility, a memory allocator, or a system service. This assignment challenges students to create a real-world application while adhering to Rust's safety principles and providing well-documented safety measures.
+
+Instructions:
+
+Introduction to the Assignment:
+
+Begin by explaining the objective of the assignment: to apply knowledge of unsafe Rust and FFI in the development of a system-level application.
+Emphasize the importance of maintaining safety and documenting the safety measures taken.
+Selection of the System-Level Project:
+
+Allow students to choose a systems-level application project that interests them. Projects may include, but are not limited to, file system utilities, memory allocators, or system services.
+Encourage students to provide a brief overview of their chosen project and explain why they selected it.
+Project Development:
+
+Instruct students to develop the selected system-level application using Rust.
+Encourage them to identify sections of the code where using unsafe Rust is necessary and to document the reasons for doing so.
+Emphasize that students should prioritize safety and provide well-documented safety measures for the entire project.
+Safety Measures and Testing:
+
+Require students to document the safety measures they have taken to ensure the application's integrity and security.
+Stress the importance of thorough testing to verify that the application works as intended and that unsafe sections are carefully tested.
+Documentation and Report:
+
+Have students submit a detailed report that includes the Rust code for the project, explanations of where unsafe Rust was used, safety measures taken, and testing results.
+Encourage students to reflect on the trade-offs and reasons for using unsafe Rust and FFI in their project.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Effective implementation of the selected system-level application using Rust.
+Proper and well-documented safety measures for sections of code that require unsafe Rust.
+Thorough testing to ensure the correctness and safety of the application.
+Completeness and clarity of the submitted report, including reflections on the use of unsafe Rust and FFI in the project.

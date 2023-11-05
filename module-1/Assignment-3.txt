@@ -1,0 +1,35 @@
+Functions and Code Reusability
+
+Objective: To emphasize the importance of functions and code reusability in Rust.
+
+Task:
+
+In this assignment, students will explore the role of functions in Rust programming and how they contribute to code reusability and maintainability.
+
+Instructions:
+
+Define Custom Functions:
+
+Instruct students to create a Rust program that defines custom functions to perform various common tasks.
+Suggest functions such as calculating the factorial of a number, checking for prime numbers, or sorting an array.
+Encourage students to add function parameters and return values to make the functions versatile and adaptable to different scenarios.
+Function Calls:
+
+Assign specific problems or tasks to students that can be solved by calling the custom functions they have defined.
+For example, they can calculate and print the factorial of a user-provided number or find and display prime numbers within a given range.
+Ensure that students demonstrate the use of function parameters and return values effectively in these tasks.
+Code Organization:
+
+Discuss the advantages of using functions for code organization and reusability.
+Have students reflect on how functions help in breaking down complex problems into manageable parts.
+Encourage them to consider how functions enhance the readability and maintainability of their code.
+Documentation:
+
+Stress the importance of documenting their functions with meaningful comments.
+Instruct students to provide descriptions for each function, explain the purpose of parameters, and clarify return values where necessary.
+Evaluation Criteria:
+
+Correct implementation of custom functions to solve assigned tasks.
+Effective use of function parameters and return values.
+Clarity and organization of code with informative comments.
+Reflection on the benefits of functions for code reusability and maintainability.

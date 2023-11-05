@@ -1,0 +1,42 @@
+Control Structures in Rust
+
+Objective: To practice using control structures in Rust.
+
+Task:
+
+In this assignment, students will gain hands-on experience with control structures in Rust, which are essential for creating decision-making and looping logic in their programs.
+
+Instructions:
+
+Conditional Statements:
+
+Instruct students to create Rust programs that implement conditional statements using if, else if, and else.
+Encourage them to design programs that:
+Prompt the user for input and make decisions based on that input.
+Calculate and display different results based on conditions.
+Handle various scenarios and user choices using conditional logic.
+Require students to include meaningful comments to explain the purpose of each conditional block.
+Loops:
+
+Ask students to write Rust programs that make use of loops. They can choose between for or while loops based on the requirements of the task.
+Tasks for the loops may include:
+Iterating through arrays, vectors, or other data structures.
+Summing or processing elements within a collection.
+Repeating specific actions until a certain condition is met.
+Encourage students to ensure their loops are well-structured and efficient.
+Match Expressions:
+
+Introduce students to the concept of match expressions in Rust.
+Assign tasks that require pattern matching and handling multiple cases using match.
+Examples may include parsing user input, categorizing data, or responding to different input scenarios.
+Instruct them to include detailed comments to explain the patterns and outcomes in their match expressions.
+Code Comments:
+
+Emphasize the importance of code comments in making their programs understandable.
+Encourage students to provide comments throughout their code to explain the logic and purpose of control structures.
+Evaluation Criteria:
+
+Correct implementation of conditional statements, loops, and match expressions.
+Effective use of control structures to solve the assigned tasks.
+Clarity and organization of code with informative comments.
+Verification of program functionality through successful testing.

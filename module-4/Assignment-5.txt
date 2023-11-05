@@ -1,0 +1,42 @@
+Mini-Project - Generic Data Structure
+
+Objective: To apply traits, generics, and advanced pattern matching in a real-world project.
+
+Task:
+
+In this assignment, students will work on a mini-project to design and implement a generic data structure in Rust. They will apply their knowledge of traits, generics, and advanced pattern matching to create a flexible and powerful data structure that can work with various data types.
+
+Instructions:
+
+Choose a Generic Data Structure:
+
+Assign students the task of designing and implementing a generic data structure. They can choose from options like a linked list, binary tree, hash map, or any other appropriate data structure.
+The data structure should be generic, meaning it can store and manipulate data of various types.
+Trait Implementation:
+
+Students should define and implement traits for their data structure. Traits should include methods for inserting, retrieving, updating, and deleting data.
+Encourage students to design traits that promote code reusability and maintainability.
+Generic Data Structure:
+
+Students should create a data structure that adheres to the traits they defined. The data structure should be able to work with different data types, making use of Rust's generics.
+Testing:
+
+Instruct students to write comprehensive unit tests to validate the correctness of their generic data structure. Test cases should cover various scenarios and data types.
+Emphasize the importance of thorough testing to ensure the data structure's reliability.
+Advanced Pattern Matching:
+
+Challenge students to implement advanced pattern matching techniques within their data structure's methods. This can include nested patterns, guards, and pattern combinations.
+Ask them to showcase how pattern matching simplifies complex operations and improves code readability.
+Documentation and Presentation:
+
+Students should provide clear documentation for their generic data structure, including explanations of traits, data structure design, and advanced pattern matching.
+Encourage students to present their project to the class, discussing the benefits of generic data structures in real-world programming.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful implementation of a generic data structure.
+Correct and comprehensive implementation of traits.
+Thorough and effective unit testing of the data structure.
+Demonstration of advanced pattern matching techniques in methods.
+Quality of documentation and presentation.

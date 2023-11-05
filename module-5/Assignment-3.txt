@@ -1,0 +1,46 @@
+FFI with C/C++ Libraries
+
+Objective: To teach students how to interface with C/C++ libraries from Rust.
+
+Task:
+
+In this assignment, students will learn how to use Rust's Foreign Function Interface (FFI) to interact with C/C++ libraries. They will be tasked with finding a small C/C++ library and writing a Rust program that calls functions from that library. This assignment will help students gain practical experience in using FFI and understand the challenges and considerations involved in integrating Rust with existing C/C++ codebases.
+
+Instructions:
+
+Introduction to the Assignment:
+
+Begin by explaining the objective of the assignment: to interface with C/C++ libraries from Rust using FFI.
+Emphasize the importance of FFI in Rust, especially when integrating with existing C/C++ codebases.
+Selection of C/C++ Library:
+
+Allow students to choose a small C/C++ library that they find interesting. The library could be related to mathematics, utilities, or any other domain.
+Encourage students to provide a brief explanation of the chosen library and why they selected it.
+Writing the Rust Program:
+
+Instruct students to write a Rust program that uses FFI to call functions from the chosen C/C++ library.
+Emphasize the need to follow the correct FFI conventions, including declaring functions as extern and handling data conversions.
+Data Exchange:
+
+Demonstrate how to pass data between Rust and C/C++ code. Students should understand how to handle data types, including primitive types, arrays, and pointers.
+Challenges and Considerations:
+
+Discuss the challenges and considerations when working with FFI, such as managing memory, handling errors, and ensuring data safety.
+Encourage students to document any issues they encounter and the solutions they implement.
+Testing:
+
+Require students to thoroughly test their Rust program to ensure that it correctly interfaces with the C/C++ library.
+Discuss the importance of testing in FFI to catch issues early.
+Documentation and Report:
+
+Have students submit a report that includes the Rust code, details of the C/C++ library used, an explanation of how data was exchanged, challenges faced, and solutions implemented.
+Students should also reflect on the advantages and limitations of using FFI in Rust.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Correct implementation of the Rust program using FFI to interface with the chosen C/C++ library.
+Effective data exchange between Rust and C/C++ code, handling different data types.
+Documentation of challenges and considerations in FFI integration.
+Quality and coverage of testing to ensure correctness.
+Completeness and clarity of the submitted report, including reflections on the FFI experience.

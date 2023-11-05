@@ -1,0 +1,44 @@
+Send and Sync Traits
+
+Objective: To delve deeper into Rust's Send and Sync traits for safe concurrency.
+
+Task:
+
+In this assignment, students will explore Rust's Send and Sync traits, which play a crucial role in ensuring safe concurrency. They will define a custom struct or type that implements these traits, create multiple threads, and share instances of this type among the threads to demonstrate how Send and Sync guarantee thread safety.
+
+Instructions:
+
+Custom Struct or Type:
+
+Instruct students to define a custom struct or type that encapsulates data they want to share among threads.
+This struct or type should implement the Send and Sync traits.
+Thread Creation:
+
+Students should write a Rust program that spawns multiple threads.
+Sharing Instances:
+
+Share instances of the custom struct or type created earlier among these threads.
+Guaranteeing Thread Safety:
+
+Discuss with students how the Send and Sync traits guarantee thread safety in Rust.
+Explain that Send indicates that the type can be safely transferred to other threads, while Sync indicates that it can be safely shared between threads without causing data races.
+Demonstration:
+
+Have students demonstrate their program, showing how Send and Sync traits ensure thread safety during concurrent access.
+Scenarios and Use Cases:
+
+Discuss various scenarios and use cases where these traits are essential in concurrent programming.
+Examples may include parallel processing of data, multi-threaded network communication, and more.
+Code Comments and Documentation:
+
+Encourage students to provide meaningful comments in their code to explain the role of Send and Sync in their program.
+Discuss the importance of documentation and code readability in concurrent Rust code.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful implementation of a custom struct or type that implements the Send and Sync traits.
+Correct creation of multiple threads and sharing of instances.
+Demonstrated understanding of how Send and Sync traits guarantee thread safety.
+Application of Send and Sync traits in scenarios relevant to concurrent programming.
+Clarity of code comments and explanations.

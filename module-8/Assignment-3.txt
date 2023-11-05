@@ -1,0 +1,48 @@
+Meetup Attendance
+
+Objective: To promote offline engagement with the Rust community.
+
+Task:
+
+In this assignment, students will have the opportunity to actively participate in a Rust meetup group, whether local or virtual. They will engage in discussions, network with fellow Rust developers, and reflect on their experience.
+
+Instructions:
+
+Find a Rust Meetup Group:
+
+Instruct students to search for a local Rust meetup group in their area or an upcoming virtual Rust meetup event.
+Encourage students to use platforms like Meetup.com, Eventbrite, or official Rust community channels to discover suitable meetups.
+Register and Attend the Meetup:
+
+Guide students to register for the selected meetup event.
+Ensure they are aware of the date, time, and any prerequisites (e.g., RSVP requirements).
+Actively Participate:
+
+During the meetup, instruct students to:
+Participate actively in discussions, asking questions and sharing their insights or experiences.
+Network with fellow attendees, introduce themselves, and exchange contact information with those who share common interests.
+Engage in any group activities or coding challenges if the meetup includes them.
+Summarize the Meetup:
+
+After attending the meetup, ask students to write a summary report:
+Provide details about the meetup, including the name, location (virtual or physical), and date.
+Summarize the main topics discussed during the event, highlighting any key presentations or speakers.
+Mention any new concepts, tools, or best practices they learned during the meetup.
+Reflect on the Experience:
+
+Instruct students to reflect on their experience and insights gained:
+Share their thoughts on the value of attending Rust meetups and engaging with the community.
+Discuss any connections they made or interesting conversations they had.
+Reflect on how the meetup enriched their understanding of Rust development or expanded their network.
+Prepare a Short Presentation (Optional):
+
+Offer students the option to prepare a short presentation (5-10 minutes) summarizing their meetup experience.
+This presentation can be delivered to the class to encourage sharing and learning from each other's experiences.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Active participation in the meetup event.
+Quality and completeness of the meetup summary report.
+Reflection on the value and insights gained from attending the meetup.
+If a presentation is prepared, its content and delivery.

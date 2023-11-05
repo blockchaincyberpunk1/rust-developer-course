@@ -1,0 +1,61 @@
+Advanced Web Application
+
+Objective: To delve deeper into web application development using Rust and advanced web technologies.
+
+Task:
+
+In this optional assignment, students will have the opportunity to extend and enhance their web application from Assignment 4. The objective is to challenge students to add more advanced features to their web application, such as user authentication, database integration, and RESTful API endpoints. Students should also implement JSON serialization/deserialization for handling data exchange and incorporate client-side scripting using JavaScript. The assignment will emphasize thorough testing, including unit tests for backend logic and integration tests for API endpoints.
+
+Instructions:
+
+Extend the Existing Web Application:
+
+Instruct students to use their web application from Assignment 4 as a starting point.
+Explain that the goal is to add advanced features to make the application more interactive and dynamic.
+User Authentication:
+
+Discuss the importance of user authentication in web applications.
+Guide students in implementing user registration, login, and logout functionality.
+Encourage the use of a user authentication library or framework (e.g., OAuth or JWT) if available.
+Database Integration:
+
+Introduce the concept of database integration in web applications.
+Instruct students to choose a database (e.g., SQLite, PostgreSQL) and integrate it into their web application.
+Show them how to perform database operations such as data retrieval, insertion, and updates.
+RESTful API Endpoints:
+
+Explain the principles of RESTful API design.
+Challenge students to implement RESTful API endpoints for their web application.
+Define endpoints for creating, reading, updating, and deleting resources.
+JSON Serialization/Deserialization:
+
+Introduce students to JSON (JavaScript Object Notation) and its importance for data exchange in web applications.
+Instruct them on how to implement JSON serialization (converting Rust structs to JSON) and deserialization (parsing JSON into Rust structs) in their web application.
+Client-Side Scripting (JavaScript):
+
+Discuss the role of client-side scripting in web applications.
+Encourage students to incorporate JavaScript to add interactivity and dynamic behavior to their web pages.
+Testing:
+
+Emphasize the importance of testing in web development.
+Instruct students to write comprehensive unit tests for the backend logic of their web application.
+Encourage them to perform integration tests for API endpoints to ensure proper functionality.
+Documentation:
+
+Ensure that students provide updated and comprehensive documentation for their advanced web application, including instructions for setting up and running it.
+Best Practices:
+
+Encourage students to follow best practices for web development, including security, error handling, and code organization.
+Presentation (Optional):
+
+If desired, have students present their advanced web applications to the class, demonstrating the new features and functionality they have added.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Implementation of advanced features such as user authentication, database integration, RESTful API endpoints, and JSON serialization/deserialization.
+Effective use of JavaScript for client-side scripting.
+Thorough testing, including unit tests for backend logic and integration tests for API endpoints.
+Quality and completeness of documentation, including updates to existing documentation.
+Adherence to best practices for web development, including security, error handling, and code organization.
+Optional: Presentation and demonstration of the advanced web application's new features and functionality.

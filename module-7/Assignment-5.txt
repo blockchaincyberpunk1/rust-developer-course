@@ -1,0 +1,49 @@
+Rust Crate Development and Documentation (Optional)
+
+Objective: To encourage students to contribute to the Rust ecosystem and create well-documented libraries.
+
+Task:
+
+In this optional assignment, students will have the opportunity to actively contribute to the Rust programming language ecosystem by developing a Rust crate (library) that addresses a specific functionality or utility they believe is missing or could be improved. The assignment also emphasizes the importance of writing comprehensive documentation and sharing the crate with the Rust community through crates.io.
+
+Instructions:
+
+Identify a Problem or Improvement:
+
+Instruct students to identify a specific functionality or utility in Rust that they believe can be enhanced or is currently missing.
+Encourage students to explore existing crates on crates.io to ensure that their chosen topic is not already well-covered.
+Crate Development:
+
+Guide students in creating a Rust crate that addresses the identified problem or provides the desired functionality.
+Encourage students to follow Rust's best practices, including adherence to the standard library's design philosophy and coding conventions.
+Documentation:
+
+Stress the importance of writing comprehensive documentation for the crate.
+Teach students how to use tools like rustdoc to generate documentation that includes clear explanations, usage examples, and code samples.
+Unit Tests:
+
+Instruct students to write unit tests for their crate to ensure correctness and reliability.
+Emphasize the significance of testing to maintain the quality of the crate.
+Publishing to crates.io:
+
+Explain the process of publishing a Rust crate to crates.io.
+Encourage students to publish their crate to crates.io, making it accessible to the broader Rust community.
+Open Source Principles:
+
+Remind students of open-source principles, including licensing considerations and the importance of clear README files.
+Encourage students to adopt an open-source mindset, actively seeking feedback and contributions from the community.
+Presentation and Evaluation:
+
+Set a deadline for students to complete their crate development and documentation.
+Ask students to present their crates to the class, sharing the problem they aimed to solve, the design choices made, and how their crate benefits the Rust ecosystem.
+Evaluate students based on the quality of their crate, documentation, tests, and their ability to effectively communicate their contributions.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+The relevance and significance of the chosen functionality or utility.
+The quality of the Rust crate developed, including adherence to Rust best practices.
+The comprehensiveness and clarity of the crate's documentation.
+The presence of unit tests and their coverage.
+The successful publication of the crate to crates.io.
+The effectiveness of the presentation and communication of the contributions to the Rust ecosystem.

@@ -1,0 +1,38 @@
+Exploring Traits
+
+Objective: To understand Rust's trait system and its role in code abstraction.
+
+Task:
+
+In this assignment, students will explore Rust's trait system, which allows for code reuse and abstraction through trait implementation and polymorphism.
+
+Instructions:
+
+Custom Trait Definition:
+
+Instruct students to define a custom trait in Rust. The trait should include a set of methods (functions) that can be implemented by Rust data types (structs or enums).
+Implementing Multiple Types:
+
+Students should create multiple Rust data types, such as structs or enums.
+Each data type should implement the custom trait defined in step 1. Students can choose different data types to implement the trait.
+Demonstrate Polymorphism:
+
+Write a Rust program that demonstrates polymorphism by using the custom trait.
+The program should create instances of the different data types that implement the trait and call the trait's methods on these instances.
+Showcase how the same trait methods can be used with different data types, highlighting polymorphism in Rust.
+Code Reuse and Abstraction:
+
+Encourage students to discuss how traits enable code reuse and abstraction.
+Ask them to explain how implementing a trait for multiple data types can lead to more modular and reusable code.
+Documentation:
+
+Require students to provide clear documentation explaining the purpose of the custom trait, the data types implementing it, and how to use the trait in their program.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful definition and implementation of a custom trait in Rust.
+Correct implementation of multiple data types (structs or enums) that implement the trait.
+Effective demonstration of polymorphism in the Rust program.
+Clear and concise documentation explaining the trait's purpose and usage.
+Insightful discussion of the advantages of using traits for code reuse and abstraction.

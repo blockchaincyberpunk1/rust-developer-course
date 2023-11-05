@@ -1,0 +1,41 @@
+ Introduction to Unsafe Rust
+
+Objective: To familiarize students with Rust's unsafe keyword and its implications.
+
+Task:
+
+In this assignment, students will explore the concept of "unsafe" in Rust. They will write a Rust program that uses unsafe blocks to perform operations that would typically be considered unsafe. This assignment will help students understand when and why unsafe Rust is necessary, as well as the risks associated with it.
+
+Instructions:
+
+Introduction to Unsafe Rust:
+
+Begin the assignment by explaining the concept of "unsafe" in Rust. Discuss Rust's strong emphasis on safety and how it enforces memory safety and prevents data races.
+Explain that "unsafe" is a Rust keyword used to indicate code that the compiler cannot verify for safety. It allows developers to bypass some of Rust's safety checks when necessary.
+Writing Unsafe Code:
+
+Assign students the task of writing a simple Rust program that includes at least one unsafe block. They can choose the specific scenario, but it should involve memory manipulation or other operations typically considered unsafe.
+Discussion of Scenarios:
+
+Instruct students to document the scenario in which they used unsafe code. They should explain why they had to use unsafe Rust for that particular task.
+Encourage students to discuss the limitations of safe Rust in the given scenario and why it couldn't meet their requirements.
+Risks and Safety Guarantees:
+
+Have students explore and document the potential risks associated with using unsafe Rust. This could include memory errors, data corruption, or security vulnerabilities.
+Emphasize the importance of adhering to Rust's safety guarantees, even when using unsafe code.
+Code Review and Analysis:
+
+As part of the assignment, students can conduct code reviews of each other's unsafe Rust code. They should look for potential safety violations and suggest improvements if necessary.
+Students should analyze the trade-offs between safety and performance when deciding to use unsafe Rust.
+Reporting:
+
+Require students to submit a report summarizing their experience with unsafe Rust. The report should include the code they wrote, explanations of the scenarios, risks, and the role of unsafe code in Rust.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Correct usage of the "unsafe" keyword in Rust code.
+Clarity of explanations regarding the scenarios that necessitated the use of unsafe Rust.
+Thoughtful analysis of the risks associated with unsafe code.
+Quality of code reviews conducted on peers' code.
+Completeness and clarity of the submitted report.

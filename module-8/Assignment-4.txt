@@ -1,0 +1,49 @@
+ Open-Source Contribution (Intermediate)
+
+Objective: To challenge students with more advanced open-source contributions.
+
+Task:
+
+In this assignment, students will have the opportunity to contribute to an open-source Rust project, taking on more complex issues that require in-depth coding and problem-solving skills. They will work on enhancing a Rust library, framework, or tool of their choice and document their contributions.
+
+Instructions:
+
+Choose an Open-Source Rust Project:
+
+Instruct students to identify an open-source Rust project that aligns with their interests and skills.
+Encourage them to explore platforms like GitHub, GitLab, or the official Rust community for suitable projects.
+Select a Challenging Issue:
+
+Advise students to search for an issue labeled as "intermediate," "complex," or "high-priority" in the chosen project's issue tracker.
+The selected issue should involve more advanced coding and problem-solving skills.
+Fork and Clone the Repository:
+
+Guide students on how to fork the repository of the chosen project on GitHub or a similar platform.
+Ensure they clone the forked repository to their local development environment.
+Address the Issue:
+
+Instruct students to work on resolving the selected issue:
+Analyze the problem thoroughly and understand the codebase related to the issue.
+Write clean, well-structured code to address the issue.
+Include comprehensive tests to ensure the correctness of their changes.
+Follow the project's coding style and guidelines.
+Submit a Pull Request (PR):
+
+Encourage students to submit a well-documented PR following these steps:
+Push their changes to their forked repository.
+Create a descriptive pull request summarizing the changes and explaining their approach.
+Address any feedback or code review comments provided by project maintainers.
+Document the Contribution:
+
+Instruct students to document their open-source contribution:
+Describe the technical challenges they faced while working on the issue.
+Explain their solutions and decision-making process.
+Reflect on what they learned during the contribution process.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+The choice of an appropriate open-source Rust project and issue.
+Quality and completeness of the code changes, including tests.
+Clarity and comprehensiveness of the pull request and documentation.
+Ability to address feedback and participate in the open-source community.

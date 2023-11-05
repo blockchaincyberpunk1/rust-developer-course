@@ -1,0 +1,41 @@
+Code Review and Safety Analysis
+
+Objective: To reinforce safe coding practices and code review skills.
+
+Task:
+
+In this assignment, students will have the opportunity to review their peers' system-level applications, emphasizing safe coding practices and safety analysis. Code reviews play a crucial role in maintaining code quality and safety in Rust projects, particularly when dealing with unsafe code sections.
+
+Instructions:
+
+Preparation for Code Review:
+
+Assign each student a peer with whom they will exchange their system-level applications.
+Provide clear instructions for the code review process.
+Code Review:
+
+Instruct students to thoroughly review their peer's code, paying special attention to sections where unsafe Rust is used.
+Encourage students to provide feedback on the safety of these sections, looking for potential issues and vulnerabilities.
+Safety Analysis and Feedback:
+
+Have students write a safety analysis report for their peer's code. In this report, they should:
+Identify specific sections where unsafe Rust is used and describe the reasons for using it.
+Analyze the safety measures implemented in these sections.
+Provide feedback and recommendations for improving safety, if necessary.
+Emphasize the importance of constructive feedback and suggestions for enhancing code safety.
+Peer Discussion:
+
+Arrange a discussion session where students can share their findings and feedback with their peers.
+Encourage students to engage in a constructive dialogue about safety measures and the use of unsafe Rust in each other's projects.
+Reflect on Code Review:
+
+Have students reflect on what they've learned from both reviewing and receiving feedback on their code.
+Ask them to consider how the code review process has influenced their understanding of safe coding practices.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+The depth and thoroughness of their code review, with a focus on identifying safety issues related to the use of unsafe Rust.
+The quality of the safety analysis report, including clear explanations and recommendations.
+Active participation and engagement in the peer discussion session.
+Reflection on the code review process and its impact on their understanding of safe coding practices.

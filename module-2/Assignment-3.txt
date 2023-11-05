@@ -1,0 +1,37 @@
+Enums and Pattern Matching
+
+Objective: To explore Rust's enums and pattern matching capabilities.
+
+Task:
+
+In this assignment, students will dive into Rust's enums and pattern matching features. They will define custom enums to model various scenarios and use match expressions to handle enum variants effectively.
+
+Instructions:
+
+Enum Definition:
+
+Ask students to define a custom enum that represents different categories, types, or scenarios relevant to their choice (e.g., animals, shapes, weather conditions).
+The enum should include multiple variants with associated data (e.g., each animal can have specific attributes).
+Rust Code with Match Expressions:
+
+Instruct students to write Rust code that demonstrates the use of match expressions to handle each enum variant.
+Encourage them to create functions that accept enum values as input and use match to perform actions based on the variant.
+Examples:
+If modeling animals, create functions that make sounds or display attributes based on the animal type.
+If modeling shapes, calculate areas or perform geometric operations based on the shape variant.
+Code Clarity and Safety:
+
+Have students discuss how enums and pattern matching enhance code clarity by making it clear which cases are being handled.
+Emphasize how pattern matching ensures that all cases are handled exhaustively, reducing the chance of bugs.
+Documentation and Comments:
+
+Encourage students to provide appropriate documentation comments explaining the purpose and functionality of their code.
+Comments should clarify how enums and pattern matching are used to achieve specific tasks.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Correct definition and use of custom enums with multiple variants.
+Successful implementation of Rust code with match expressions.
+Functionality and accuracy of the code in handling enum variants.
+Clarity of code and documentation, including comments explaining enum usage and pattern matching.

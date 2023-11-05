@@ -1,0 +1,53 @@
+Advanced Asynchronous Programming
+
+Objective: To deepen students' understanding of asynchronous programming in Rust.
+
+Task:
+
+In this assignment, students will build a Rust application that leverages advanced asynchronous programming techniques to perform network requests to multiple endpoints concurrently. By implementing error handling, asynchronous patterns like async streams and channels, and integration tests, students will gain practical experience in writing robust asynchronous Rust code.
+
+Instructions:
+
+Project Scope:
+
+Instruct students to select a project scope for this assignment that involves making asynchronous network requests to multiple endpoints.
+Encourage students to choose a diverse set of endpoints, such as RESTful APIs, web services, or data sources.
+Ensure that the project has a clear use case and provides value through asynchronous data retrieval.
+Asynchronous Network Requests:
+
+Teach students how to use Rust's async/await syntax and the async-std or tokio runtime to perform asynchronous network requests.
+Guide students in implementing functions or modules responsible for sending requests to various endpoints concurrently.
+Emphasize the importance of structured code organization to manage asynchronous tasks effectively.
+Advanced Asynchronous Patterns:
+
+Introduce advanced asynchronous patterns such as async streams and channels.
+Instruct students on how to use async streams to handle sequences of asynchronous data and asynchronous channels to communicate between asynchronous tasks.
+Encourage students to explore the use of these patterns within their project to improve concurrency and data flow.
+Error Handling:
+
+Discuss the challenges of error handling in asynchronous Rust applications.
+Instruct students on best practices for error propagation and handling asynchronous errors gracefully.
+Teach students how to incorporate error logging for debugging and monitoring purposes.
+Integration Tests:
+
+Explain the importance of integration tests in verifying the functionality of the asynchronous application.
+Guide students in writing integration tests that simulate network requests and validate the expected responses.
+Encourage students to include test cases that cover both successful responses and error scenarios.
+Documentation:
+
+Remind students to document their asynchronous code comprehensively, including explanations of async functions and the purpose of async patterns used.
+Encourage students to include code examples and use cases in their documentation.
+Submission:
+
+Set a deadline for students to submit their asynchronous Rust application along with integration tests and documentation.
+Ask students to provide clear instructions on how to build and run the application and tests.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Implementation of an asynchronous Rust application that performs network requests to multiple endpoints concurrently.
+Correct usage of advanced asynchronous patterns (async streams and channels) where applicable.
+Effective error handling strategies, including proper error propagation and logging.
+Quality and completeness of integration tests that cover various scenarios.
+Clarity and completeness of project documentation, including explanations of asynchronous code and patterns.
+Adherence to Rust's asynchronous best practices and coding standards.

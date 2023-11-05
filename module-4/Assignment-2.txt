@@ -1,0 +1,38 @@
+Working with Generics
+
+Objective: To teach students about Rust's generic programming capabilities.
+
+Task:
+
+In this assignment, students will explore Rust's generic programming features, which allow for the creation of flexible and reusable code that can work with multiple data types.
+
+Instructions:
+
+Generic Function or Data Structure:
+
+Instruct students to create either a generic function or a generic data structure in Rust.
+The generic function or data structure should be capable of working with various data types without specifying them explicitly in the code.
+Implement a Generic Algorithm:
+
+Ask students to implement a generic algorithm (e.g., sorting, searching) that operates on generic types.
+The algorithm should be capable of handling different data types provided as input.
+Demonstrating Flexibility:
+
+Students should create instances of their generic function or data structure and demonstrate its flexibility by using it with different data types.
+Showcase how the same code can be reused for various data types.
+Advantages of Generics:
+
+Require students to write a brief explanation of the advantages of using generics in Rust.
+Encourage them to discuss how generics contribute to code reusability, flexibility, and type safety.
+Documentation:
+
+Ensure that students provide clear documentation explaining the purpose and usage of their generic function or data structure.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful creation and implementation of a generic function or data structure.
+Correct implementation of a generic algorithm that operates on generic types.
+Effective demonstration of the code's flexibility by using it with multiple data types.
+Insightful explanation of the advantages of using generics in Rust.
+Clear and concise documentation that aids in understanding the code.

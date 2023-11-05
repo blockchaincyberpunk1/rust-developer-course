@@ -1,0 +1,42 @@
+Basic Command-Line Tool
+
+Objective: To introduce students to building command-line applications in Rust.
+
+Task:
+
+In this assignment, students will create a simple command-line tool using Rust, introducing them to command-line application development and argument parsing. The tool should perform basic operations and provide a user-friendly interface.
+
+Instructions:
+
+Project Setup:
+
+Instruct students to set up a new Rust project using Cargo.
+Ensure they initialize the project with a meaningful name and directory structure.
+Command-Line Tool Development:
+
+Have students write Rust code to create a basic command-line tool with the following features:
+Accept user input via command-line arguments.
+Implement functionality to perform basic operations (e.g., calculations, string manipulations, or data transformations).
+Use a third-party library like clap to handle argument parsing and provide a user-friendly interface.
+Include clear usage instructions that explain how to use the command-line tool.
+Implement error handling to handle invalid inputs or execution errors gracefully.
+Testing:
+
+Encourage students to write unit tests for their command-line tool to ensure its functionality.
+Instruct them to use Rust's testing framework to create meaningful tests that cover different scenarios.
+Documentation:
+
+Ask students to provide documentation for their command-line tool, including information on how to build, install, and use it.
+Presentation:
+
+Have students present their command-line tools to the class, demonstrating how they work and showcasing the usage instructions.
+Encourage discussion and feedback from peers.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+The functionality and correctness of their command-line tool.
+The effectiveness of argument parsing and error handling.
+The clarity and completeness of usage instructions and documentation.
+The quality of unit tests and code coverage.
+The effectiveness of their presentation and their ability to explain the tool's purpose and functionality.

@@ -1,0 +1,50 @@
+Asynchronous File Processing
+
+Objective: To introduce students to asynchronous programming in Rust for file operations.
+
+Task:
+
+In this assignment, students will explore asynchronous programming in Rust, specifically focusing on asynchronous file processing. They will create a Rust application that can concurrently read and write files using either the async-std or tokio asynchronous runtime. The assignment aims to help students understand the benefits of asynchronous programming, such as improved performance and responsiveness, and how to effectively handle asynchronous file operations using async/await syntax. Students are also expected to write unit tests to ensure the correctness of their asynchronous file processing code.
+
+Instructions:
+
+Choose an Asynchronous Runtime:
+
+Instruct students to choose between async-std and tokio as the asynchronous runtime for their assignment. Provide documentation or resources for setting up the chosen runtime.
+File Processing Application:
+
+Have students create a Rust application that performs asynchronous file operations. The application should include the following features:
+Reading data from multiple input files concurrently.
+Processing the data in an asynchronous manner (e.g., filtering, transforming, or aggregating data).
+Writing the processed data to multiple output files concurrently.
+Ensure that students handle errors gracefully and provide meaningful error messages.
+Use Async/Await:
+
+Teach students how to use async/await syntax to write asynchronous code. Explain the concept of asynchronous functions and how to await asynchronous operations.
+Concurrency:
+
+Encourage students to leverage Rust's asynchronous capabilities to perform file processing concurrently. Explain the advantages of concurrency in terms of performance and responsiveness.
+Unit Testing:
+
+Instruct students to write unit tests for their asynchronous file processing code. Tests should cover scenarios such as reading, processing, and writing files.
+Emphasize the importance of testing asynchronous code to ensure it behaves as expected.
+Documentation:
+
+Ensure that students provide clear documentation for their code, including instructions for running the application and explanations of how asynchronous operations are managed.
+Error Handling:
+
+Teach students the importance of proper error handling in asynchronous code. Discuss techniques for handling errors, including the use of Result and the ? operator.
+Submission:
+
+Set a deadline for students to submit their asynchronous file processing applications along with unit tests and documentation.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful implementation of an asynchronous file processing application that reads, processes, and writes files concurrently.
+Effective use of async/await syntax for asynchronous operations.
+Thorough unit testing to ensure the correctness of the asynchronous code.
+Quality and clarity of documentation, including instructions for running the application and explanations of asynchronous concepts.
+Proper error handling throughout the code, ensuring that errors are handled gracefully.
+Adherence to best practices for asynchronous programming in Rust.
+Optional: Creativity and innovation in implementing additional features or optimizations related to asynchronous file processing.

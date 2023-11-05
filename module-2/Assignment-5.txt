@@ -1,0 +1,42 @@
+ Mini-Project - Rust Ownership and Structs
+
+Objective: To apply ownership, borrowing, lifetimes, and struct concepts in a small Rust project.
+
+Task:
+
+In this assignment, students will undertake a mini-project to create a Rust program that models a simple library system with books and borrowers using structs. The goal is to apply ownership, borrowing, lifetimes, and struct concepts to manage data effectively. Students will implement functions to add, borrow, and return books while ensuring data integrity and adhering to Rust's ownership principles.
+
+Instructions:
+
+Struct Definition:
+
+Instruct students to define two custom structs: "Book" and "Borrower." Each struct should have relevant fields to represent books and borrowers, respectively.
+Provide guidance on struct field types and how to represent data.
+Rust Code:
+
+Challenge students to write Rust code that accomplishes the following tasks:
+Create instances of "Book" and "Borrower" structs to model books and borrowers in the library.
+Implement functions/methods for:
+Adding books to the library.
+Borrowing books by associating them with borrowers.
+Returning books to the library.
+Ensure that ownership, borrowing, and lifetimes are appropriately handled within these functions to avoid data races and ensure data integrity.
+Demonstrate how to update the status of books (e.g., available, borrowed) based on borrowing and returning actions.
+Test Cases:
+
+Instruct students to create test cases that validate the functionality of their library system. Test cases should cover scenarios involving book additions, borrowings, and returns.
+Encourage students to consider edge cases and unexpected inputs in their testing.
+Code Comments and Documentation:
+
+Ensure that students provide clear comments within their code to explain the purpose and functionality of each function/method.
+Encourage students to document how ownership, borrowing, and lifetimes are managed in their code.
+Highlight the importance of code clarity and readability.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Correct definition of "Book" and "Borrower" structs with appropriate fields.
+Accurate implementation of Rust code for adding, borrowing, and returning books while applying ownership and borrowing principles.
+Effective use of lifetimes where applicable to ensure proper data access.
+Successful creation of comprehensive test cases covering various scenarios.
+Clarity of code and documentation, including comments explaining code functionality and ownership management.

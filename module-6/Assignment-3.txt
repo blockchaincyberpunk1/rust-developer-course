@@ -1,0 +1,60 @@
+Interactive CLI Game
+
+Objective: To reinforce command-line application development skills through a fun project.
+
+Task:
+
+In this assignment, students will have the opportunity to apply their Rust programming skills to create an interactive command-line game. The objective is to develop a game that involves user input, maintains a state that evolves based on user choices, and includes game logic, scoring, and an option to save and load game progress from a file.
+
+Instructions:
+
+Game Concept:
+
+Discuss different types of interactive games that students can create using a command-line interface (CLI). Examples include text-based adventures, quizzes, simulations, or strategy games.
+Project Initiation:
+
+Instruct students to start a new Rust project specifically for the game.
+Encourage them to use the Rust standard library for handling I/O operations and game state.
+Game Logic:
+
+Guide students in implementing the core logic of the game, including rules, objectives, and potential outcomes.
+Ensure that the game provides engaging interactions with the user.
+User Input:
+
+Instruct students to accept user input via the command line.
+Encourage them to handle various user commands and choices within the game.
+Game State:
+
+Explain the importance of maintaining a game state that reflects the current progress and decisions made by the user.
+Help students design a data structure or struct that represents the game state.
+Scoring and Progress:
+
+Encourage students to implement a scoring system or progress tracking that allows the user to track their performance.
+Discuss ways to display scores or progress to the user.
+Save and Load:
+
+Challenge students to add functionality for saving and loading game progress to/from a file.
+Show them how to use file I/O in Rust for this purpose.
+Testing:
+
+Emphasize the importance of testing the game's functionality thoroughly.
+Encourage students to write unit tests to verify the correctness of game logic.
+Documentation:
+
+Instruct students to provide clear and concise documentation for their game, including instructions on how to play, save, and load.
+Presentation:
+
+Have students present their interactive CLI game to the class.
+Encourage them to demonstrate how the game works, including gameplay, saving, loading, and scoring.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Creativity and engagement level of the interactive CLI game.
+Implementation of game logic and user interactions.
+Proper handling of user input and choices.
+Effective use of Rust's standard library for I/O operations.
+Functionality for saving and loading game progress.
+Quality and coverage of unit tests.
+Clarity and completeness of documentation.
+The quality of their presentation and their ability to showcase the game's features.

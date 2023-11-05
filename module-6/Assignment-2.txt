@@ -1,0 +1,50 @@
+Advanced Command-Line Application
+
+Objective: To expand on the basic command-line application and cover more complex scenarios.
+
+Task:
+
+In this assignment, students will build upon the skills learned in the previous assignment by extending their command-line application. The goal is to create a more advanced tool that can handle file I/O operations, multiple input files, error reporting, and custom output formatting.
+
+Instructions:
+
+Project Continuation:
+
+Instruct students to continue working on the Rust project they started in Assignment 1 (Basic Command-Line Tool).
+File I/O Operations:
+
+Guide students in adding functionality to read data from input files.
+Encourage them to implement error handling for cases where the input file is missing or the data cannot be read.
+Multiple Input Files:
+
+Challenge students to modify their tool to accept multiple input files as arguments.
+Ensure they can process each input file separately or combine data from multiple files.
+Error Reporting:
+
+Have students implement a robust error reporting system.
+In case of errors (e.g., file reading errors or invalid input data), the tool should provide clear error messages and exit gracefully.
+Custom Output Formatting:
+
+Encourage students to add options for customizing the output format of the tool.
+This could include specifying the output file format, formatting styles, or choosing which data to display.
+Test-Driven Development:
+
+Remind students to continue practicing test-driven development (TDD) by writing tests for the newly added functionality.
+Ensure that their unit tests cover various scenarios and edge cases.
+Documentation:
+
+Instruct students to update the documentation to reflect the new features and functionality added to the command-line tool.
+Presentation:
+
+Have students present their advanced command-line application to the class, demonstrating how it handles multiple files, provides error reporting, and allows for custom output formatting.
+Encourage discussion and peer feedback.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+The functionality and correctness of their advanced command-line application.
+The effectiveness of handling file I/O operations, multiple input files, and error reporting.
+The flexibility and usability of custom output formatting options.
+The quality of unit tests and code coverage for the new features.
+The clarity and completeness of updated documentation.
+The effectiveness of their presentation and their ability to showcase the advanced features of their tool.

@@ -1,0 +1,49 @@
+Data Sharing and Ownership in Threads
+
+Objective: To explore data sharing and ownership between threads in Rust.
+
+Task:
+
+In this assignment, students will deepen their understanding of data sharing and ownership between threads in Rust. They will create a Rust program with multiple threads and share a data structure among them to demonstrate Rust's ownership rules and ensure data safety during concurrent access.
+
+Instructions:
+
+Thread Creation and Data Sharing:
+
+Instruct students to write a Rust program that creates multiple threads.
+Define a data structure (e.g., a vector, hash map, or any other suitable container) that will be shared among these threads.
+Data Initialization:
+
+Populate the shared data structure with initial values before spawning threads.
+Concurrent Data Access:
+
+Each thread should have a specific task that involves accessing and modifying the shared data structure.
+Demonstrate scenarios where threads read from and write to the shared data structure simultaneously.
+Ownership Rules:
+
+Emphasize Rust's ownership and borrowing system as it applies to the shared data.
+Discuss how Rust ensures data safety by enforcing rules like mutable borrowing and ownership transfer.
+Data Race Mitigation:
+
+Encourage students to intentionally introduce potential data races in their program.
+Discuss strategies and Rust-specific techniques (e.g., using Mutex or RwLock) to mitigate data races and ensure thread safety.
+Demonstration:
+
+Students should run the program and observe how Rust's ownership rules prevent data races and guarantee data safety during concurrent access.
+Discussion:
+
+Engage students in a discussion about the significance of Rust's ownership system in concurrent programming.
+Explore real-world applications where shared data and thread safety are critical.
+Code Comments:
+
+Encourage students to provide comments in their code to explain the purpose of each thread and the data they access.
+Discuss best practices for writing concurrent code that is both efficient and safe.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Creation of multiple threads in the Rust program.
+Successful sharing of a data structure among threads.
+Demonstrated understanding of Rust's ownership rules and their application to concurrent programming.
+Identification and mitigation of potential data races.
+Clarity of code comments and explanations.

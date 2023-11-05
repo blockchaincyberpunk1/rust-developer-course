@@ -1,0 +1,54 @@
+Building a Simple Chat Application (Optional)
+
+Objective: To challenge students to build a networked application with Rust.
+
+Task:
+
+In this optional assignment, students will have the opportunity to build a simple chat application using Rust. The objective is to provide students with hands-on experience in building networked applications and using Rust's asynchronous capabilities (async-std or tokio). Students will create both a server and client component, allowing multiple users to connect, send, and receive messages in real-time. Emphasize the importance of error handling and ensuring that the application gracefully handles disconnections and errors.
+
+Instructions:
+
+Server Implementation:
+
+Instruct students to create a Rust server component that will handle incoming client connections and message broadcasting.
+Utilize the chosen asynchronous runtime (async-std or tokio) for network communication.
+Define a protocol for communication between clients and the server, specifying message formats and commands.
+Client Implementation:
+
+Have students develop a Rust client component that can connect to the server.
+Implement a simple command-line interface for users to enter messages and commands.
+Ensure that clients can send and receive messages from the server and other connected clients.
+Asynchronous Networking:
+
+Teach students how to use async/await syntax for asynchronous networking. Explain the concept of asynchronous I/O operations.
+Discuss how to handle asynchronous tasks, such as reading and writing data over the network.
+Concurrency:
+
+Encourage students to handle multiple client connections concurrently using Rust's async capabilities. Discuss the benefits of concurrency in a chat application.
+Error Handling:
+
+Emphasize the importance of proper error handling in networked applications. Teach students how to handle network errors and disconnections gracefully.
+Chat Features:
+
+Suggest additional features that students can implement, such as user authentication, private messaging, or chat room creation, based on their skill level and interests.
+Documentation:
+
+Ensure that students provide clear documentation for their chat application, including instructions for running the server and client components.
+Testing:
+
+Encourage students to test their chat application thoroughly, especially in scenarios involving multiple concurrent clients.
+Submission:
+
+Set a deadline for students to submit their chat application, including server and client components, along with documentation.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful implementation of a chat application that allows multiple users to connect, send, and receive messages.
+Effective use of async/await syntax for asynchronous networking and communication.
+Proper error handling to gracefully manage disconnections and network errors.
+Clear and user-friendly command-line interfaces for both the server and clients.
+Quality and clarity of documentation, including instructions for running the server and clients.
+Thorough testing, especially in scenarios involving multiple concurrent clients.
+Optional: Creativity and innovation in implementing additional chat features or optimizations.
+Adherence to best practices for networked application development in Rust.

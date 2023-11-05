@@ -1,0 +1,59 @@
+ Basic Web Application
+
+Objective: To introduce web application development in Rust (for students choosing the optional path).
+
+Task:
+
+In this optional assignment, students will have the opportunity to explore web application development in Rust. They will choose a Rust web framework (e.g., Rocket or Actix) and build a basic web application. The objective is to create a web application that serves HTML pages, handles user interactions through routes and request handling, and incorporates data storage (e.g., using in-memory data structures or files). Students should ensure that the application is well-documented and follows best practices for web development.
+
+Instructions:
+
+Choose a Web Framework:
+
+Instruct students to select a Rust web framework of their choice. Examples include Rocket, Actix, or any other framework they prefer.
+Provide resources and documentation for the chosen framework to help students get started.
+Project Setup:
+
+Guide students in setting up a new Rust project for their web application.
+Ensure that they have the necessary dependencies and tools installed.
+Define Routes and Handlers:
+
+Explain the concept of routes and handlers in the chosen web framework.
+Encourage students to define routes for different parts of their web application (e.g., homepage, user profile, or product listing).
+Instruct them to create handlers to process incoming requests and provide appropriate responses.
+HTML Pages:
+
+Discuss the integration of HTML templates within the chosen framework.
+Encourage students to create HTML templates for their web pages, ensuring a clear separation of presentation and logic.
+User Interactions:
+
+Instruct students to implement user interactions through web forms or links.
+Show them how to capture user input and process it in their Rust code.
+Data Storage:
+
+Depending on the complexity of the project, guide students in implementing data storage mechanisms. This could include in-memory data structures or file-based storage.
+Emphasize the importance of data validation and security practices.
+Documentation:
+
+Ensure that students provide comprehensive documentation for their web application. This should include instructions for setting up and running the application locally.
+Best Practices:
+
+Encourage students to follow best practices for web development, including security, error handling, and code organization.
+Testing (Optional):
+
+Students may choose to write unit tests for their web application to ensure its functionality is correct.
+Presentation (Optional):
+
+If desired, have students present their web applications to the class, demonstrating key features and functionality.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Choice and setup of a suitable Rust web framework.
+Implementation of routes, request handling, and user interactions.
+Creation of HTML templates and proper integration with the web framework.
+Effective data storage and retrieval mechanisms.
+Quality and completeness of documentation.
+Adherence to best practices for web development.
+Optional: Quality of unit tests (if implemented).
+Optional: Presentation and demonstration of the web application's features.

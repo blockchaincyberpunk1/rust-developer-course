@@ -1,0 +1,41 @@
+Unsafe Rust and Low-Level Memory Management
+
+Objective: To deepen understanding of unsafe Rust and memory management.
+
+Task:
+
+In this assignment, students will delve deeper into unsafe Rust and low-level memory management. They will be tasked with implementing a custom data structure or algorithm using unsafe Rust for memory manipulation. This assignment will reinforce the concepts of unsafe code and require students to analyze and document the safety concerns associated with their implementation.
+
+Instructions:
+
+Introduction to the Assignment:
+
+Begin by explaining the objective of the assignment: to implement a custom data structure or algorithm using unsafe Rust for low-level memory management.
+Clarify that students are expected to write code that manipulates memory directly, and it will not undergo the typical safety checks by the Rust compiler.
+Selection of Data Structure/Algorithm:
+
+Allow students to choose a custom data structure or algorithm to implement. They can opt for options like a linked list, dynamic array, or any other data structure that requires low-level memory management.
+Implementation:
+
+Instruct students to write Rust code that implements the chosen data structure or algorithm. Emphasize that they should use unsafe blocks for memory manipulation.
+Encourage students to write tests to validate the correctness and safety of their code. Tests should cover various scenarios, including edge cases.
+Safety Analysis:
+
+Have students analyze and document the safety concerns associated with their implementation. They should identify potential risks, such as memory leaks or data corruption.
+Require students to describe the strategies they used to mitigate these safety concerns. Discuss the trade-offs between performance and safety.
+Code Review:
+
+As part of the assignment, students can conduct code reviews of their peers' implementations. They should look for potential safety violations and suggest improvements if necessary.
+Documentation:
+
+Require students to submit a report that includes the code they wrote, the results of their tests, the safety analysis, and the strategies used to ensure safety.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Correct and functional implementation of the chosen data structure or algorithm using unsafe Rust.
+Quality and coverage of test cases to ensure correctness and safety.
+Thorough analysis of safety concerns associated with the implementation.
+Clarity and effectiveness of safety mitigation strategies.
+Quality of code reviews conducted on peers' code.
+Completeness and clarity of the submitted report.

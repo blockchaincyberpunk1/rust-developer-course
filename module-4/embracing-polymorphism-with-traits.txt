@@ -1,0 +1,88 @@
+ Embracing Polymorphism with Traits in Rust
+
+For beginner Rust coders, mastering the intricacies of the language often involves diving into its unique features. One such feature that plays a pivotal role in Rust's expressive and safe programming paradigm is traits. Traits are a powerful concept that enables you to define shared behaviors and functionality, which can then be implemented by different types. In this article, we'll embark on a journey to understand traits and their significance in the world of Rust programming.
+
+Defining Traits: A Blueprint for Behavior
+At its core, a trait in Rust is a collection of methods that define certain behavior. Think of it as a blueprint or a contract that a type must adhere to if it wants to implement the functionality defined by the trait. Traits serve as a way to express the "what" without dictating the "how" – a fundamental principle of Rust's design philosophy.
+
+Let's explore a basic example of a trait in action:
+
+
+trait Greet {
+    fn greet(&self);
+}
+
+struct Person {
+    name: String,
+}
+
+impl Greet for Person {
+    fn greet(&self) {
+        println!("Hello, {}!", self.name);
+    }
+}
+
+fn main() {
+    let person = Person { name: String::from("Alice") };
+    person.greet();
+}
+
+
+In this example, we define a trait called Greet with a single method greet(). The Person struct implements this trait, and as a result, we can call the greet() method on a Person instance. Traits enable polymorphism, allowing different types to share common behavior while maintaining their distinct characteristics.
+
+The Power of Dynamic Dispatch
+One of the key benefits of traits is their role in enabling dynamic dispatch. Unlike static dispatch, where the function to be called is determined at compile time, dynamic dispatch allows the function to be resolved at runtime based on the actual type of the object. This flexibility comes in handy when you want to work with a collection of different types that implement the same trait.
+
+
+fn call_greet<T: Greet>(item: T) {
+    item.greet();
+}
+
+fn main() {
+    let person = Person { name: String::from("Bob") };
+    let alien = Alien;
+
+    call_greet(person);
+    call_greet(alien);
+}
+
+
+In this example, the call_greet() function accepts any type that implements the Greet trait. This approach allows us to reuse the same function for different types, making our code more modular and adaptable.
+
+Default Implementations: Providing Flexibility
+Rust's trait system also supports default implementations, allowing you to provide a default implementation for a trait method while still giving types the option to override it if needed. This feature strikes a balance between enforcing consistency and enabling customization.
+
+
+trait Dance {
+    fn dance(&self) {
+        println!("Dancing gracefully.");
+    }
+}
+
+struct Dancer;
+
+impl Dance for Dancer {}
+
+struct Breakdancer;
+
+impl Dance for Breakdancer {
+    fn dance(&self) {
+        println!("Breaking it down!");
+    }
+}
+
+fn main() {
+    let dancer = Dancer;
+    let breakdancer = Breakdancer;
+
+    dancer.dance();
+    breakdancer.dance();
+}
+
+
+In this example, the Dancer type uses the default implementation of the dance() method defined in the Dance trait. However, the Breakdancer type overrides the default implementation with its own version. This showcases the flexibility and extensibility that traits bring to your Rust programs.
+
+Conclusion: Unleashing the Power of Traits
+Traits are the building blocks of polymorphism and code reuse in Rust. By abstracting shared behavior and functionality, traits allow you to write flexible, modular, and expressive code that is easy to maintain and extend. Whether you're designing APIs, creating libraries, or structuring your application's architecture, traits provide a powerful tool to shape and define the behavior of your types.
+
+As a beginner Rust coder, embracing traits can open up new horizons in your programming journey. By understanding how traits work and applying them in your projects, you'll be well on your way to writing efficient, flexible, and robust Rust code that's a joy to work with. So, dive into the world of traits and unlock the potential of polymorphism in Rust – your code will thank you for it! Happy coding!

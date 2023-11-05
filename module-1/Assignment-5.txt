@@ -1,0 +1,42 @@
+Mini-Project - Simple Console Application
+
+Objective: To apply programming concepts learned in Rust to create a small console application.
+
+Task:
+
+In this assignment, students will showcase their Rust programming skills by developing a simple console application. The application should take user input and perform basic operations, demonstrating their proficiency in variables, data types, control structures, functions, and error handling.
+
+Instructions:
+
+Choose a Simple Console Application:
+
+Instruct students to select a specific type of console application to build. Examples include:
+A basic calculator (able to perform addition, subtraction, multiplication, and division).
+A to-do list manager (able to add, remove, and display tasks).
+A word counter (able to count words, characters, or lines in input text).
+Encourage creativity and allow students to choose or propose their own console application ideas.
+Implementation:
+
+Have students implement the chosen console application using Rust.
+They should utilize Rust's features, such as variables, data types, control structures (if, match), and functions, to create a functional program.
+Emphasize code organization, readability, and good programming practices.
+Error Handling:
+
+Require students to incorporate error handling within their program to handle unexpected input or errors gracefully.
+For instance, in a calculator application, they should handle division by zero or invalid mathematical operations.
+Ensure that error messages are informative and user-friendly.
+Documentation:
+
+Encourage students to include documentation comments (/// or //!) throughout their code.
+Documentation comments should explain the purpose of functions, how to use the program, and any specific input requirements.
+Presentation and Demonstration:
+
+Depending on the class format, have students present and demonstrate their console applications to the class.
+During the presentation, they should showcase the application's functionality and how they handled error cases.
+Evaluation Criteria:
+
+Successful implementation of the chosen console application.
+Effective use of Rust programming concepts, including variables, data types, control structures, and functions.
+Proper error handling to handle unexpected input or errors gracefully.
+Quality of documentation comments within the code.
+Clarity and effectiveness of the presentation and demonstration (if applicable).

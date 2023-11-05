@@ -1,0 +1,42 @@
+Variables and Data Types in Rust
+
+Objective: To reinforce the understanding of variables and data types in Rust.
+
+Task:
+
+In this assignment, students will focus on gaining proficiency in working with variables and different data types in the Rust programming language. By completing this task, they will build a strong foundation for more advanced Rust programming concepts.
+
+Instructions:
+
+Variable Declarations:
+
+Instruct students to create Rust programs that declare and initialize variables of various data types, including but not limited to:
+Integer types (e.g., i32, u64)
+Floating-point types (e.g., f64)
+Strings
+Booleans
+Encourage them to use meaningful variable names and provide comments where necessary to explain the purpose of each variable.
+Mutability and Immutability:
+
+Ask students to demonstrate the concept of variable mutability and immutability in Rust.
+Create examples where variables are declared as mutable using the mut keyword and others as immutable by default.
+Show how mutable variables can be changed and immutable variables cannot.
+Basic Operations:
+
+Require students to perform basic operations on the declared variables:
+Arithmetic operations (e.g., addition, subtraction, multiplication, division)
+String concatenation or formatting
+Logical operations using booleans
+Have them print the results of these operations to the console for verification.
+Testing and Verification:
+
+Emphasize the importance of testing and verification.
+Instruct students to run their programs and verify that the output matches their expectations.
+Encourage them to handle different data types and operations systematically.
+Evaluation Criteria:
+
+Correct declaration and initialization of variables.
+Proper usage of mutability and immutability concepts.
+Accurate implementation of basic operations.
+Clear and organized code with appropriate comments.
+Successful verification of program output.

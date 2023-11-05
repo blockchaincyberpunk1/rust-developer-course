@@ -1,0 +1,53 @@
+Mini-Project - Concurrent Task Scheduler
+
+Objective: To build a small concurrent application in Rust.
+
+Task:
+
+In this assignment, students will apply their knowledge of concurrency in Rust to create a mini-project: a Concurrent Task Scheduler. The goal is to design and implement a Rust program that can execute multiple tasks concurrently while ensuring thread safety and proper synchronization.
+
+Instructions:
+
+Task Scheduler Design:
+
+Instruct students to design a Rust program that serves as a task scheduler.
+The task scheduler should be capable of handling multiple tasks concurrently using threads.
+Task Management:
+
+Students should implement mechanisms for adding tasks to the scheduler and tracking their progress.
+Each task can be represented as a closure or a function that performs a specific operation.
+Concurrency and Safety:
+
+Encourage students to use Rust's concurrency features, including threads, to execute tasks concurrently.
+Ensure that students apply the Send and Sync traits appropriately to guarantee thread safety.
+Synchronization:
+
+Discuss synchronization mechanisms such as mutexes, channels, or other Rust standard library tools that students can use to coordinate tasks and share data safely among threads.
+Progress Tracking:
+
+The task scheduler should allow tracking the progress of each task, indicating whether a task is pending, completed, or encountered an error.
+Error Handling:
+
+Students should implement error handling mechanisms to capture and report errors that occur during task execution.
+Documentation:
+
+Require students to provide clear documentation explaining the design and functionality of their Concurrent Task Scheduler.
+Include examples of how to use the scheduler in their documentation.
+Testing:
+
+Encourage students to thoroughly test their task scheduler with various types of tasks, including tasks that run concurrently and tasks that may encounter errors.
+Testing should cover scenarios where multiple tasks are added and executed concurrently.
+Advantages of Concurrency:
+
+As part of their assignment, students should discuss the advantages and use cases of concurrent task scheduling in real-world scenarios.
+They should highlight scenarios where concurrent task execution is beneficial for performance and responsiveness.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Successful design and implementation of a Concurrent Task Scheduler in Rust.
+Proper utilization of Rust's concurrency features, including threads, Send, and Sync.
+Effective use of synchronization mechanisms for safe data sharing and coordination.
+Comprehensive testing and error handling in the task scheduler.
+Quality and clarity of documentation provided.
+Insightful discussion of the advantages and real-world applications of concurrent task scheduling.

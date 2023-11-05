@@ -1,0 +1,39 @@
+Structs and Data Organization
+
+Objective: To practice defining and using structs for data organization in Rust.
+
+Task:
+
+In this assignment, students will work with Rust structs to model and organize data effectively. They will create a Rust program that defines a struct representing a person with fields like name, age, and address. Students will write functions to create instances of this struct, update its fields, and display information. They will also explore methods associated with structs and discuss the benefits of using structs for data modeling and organization.
+
+Instructions:
+
+Struct Definition:
+
+Ask students to define a custom struct named "Person" with fields such as "name" (String), "age" (u32), and "address" (String).
+Provide guidelines on how to create structs, define fields, and specify data types.
+Rust Code:
+
+Instruct students to write Rust code that demonstrates the following operations:
+Create instances of the "Person" struct with sample data.
+Implement functions to update the fields of a "Person" instance.
+Display information about a "Person" instance (e.g., print name, age, and address).
+Utilize methods associated with the struct, such as a method to calculate a person's birth year based on their age.
+Benefits of Structs:
+
+Encourage students to discuss and document the benefits of using structs for data modeling and organization.
+Emphasize how structs group related data together and make it easy to create, manipulate, and maintain instances.
+Discuss how methods associated with structs allow for behavior related to the data.
+Code Comments:
+
+Ensure that students provide clear comments within their code to explain the purpose of each function and method.
+Comments should also describe how structs are used to organize and represent data.
+Evaluation Criteria:
+
+Students will be evaluated based on the following criteria:
+
+Correct definition of the "Person" struct with appropriate fields.
+Accurate implementation of Rust code for creating, updating, and displaying "Person" instances.
+Successful use of methods associated with structs.
+Comprehensive explanation of the benefits of using structs for data organization.
+Clarity of code and documentation, including comments explaining code functionality.
